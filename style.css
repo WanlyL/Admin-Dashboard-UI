@@ -41,12 +41,13 @@ li{
 .Header{
     background-color: white;
     margin: 5px 20px;
-    height: 90px;
+    height: 100px;
 }
 
 .top-row{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5px;
 }
 
 .bottom-row{
@@ -56,10 +57,13 @@ li{
 
 #hello{
     margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 #wanly{
     margin-top: 0;
+    font-size: 1.2rem;
 }
 
 button{
@@ -75,5 +79,43 @@ button{
 }
 
 .main-content{
-    background-color: blue;
+    background-color: gray;
+}
+
+.project{
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.card{
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+h6{
+    margin-bottom: 0;
+}
+.text{
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.news{
+    gap: 10px;
+}
+
+.announcement{
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.trending{
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: white;
 }
