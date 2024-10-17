@@ -4,6 +4,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
+    min-height: 100%;
 }
 
 .sidebar{
@@ -11,6 +12,7 @@ body{
     display: grid;
     grid-template-rows: 75px 300px 250px 1fr;
     background-color: #0284c7;
+    height: 100vh;
 }
 
 #dash{
@@ -64,9 +66,42 @@ button{
 }
 
 .main-content{
-    background-color: red;
+    background-color: #d3d3d3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.project{
+    grid-column: 1 / 2;
+    gap: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, minmax(210px,1fr));
+}
+
+.card{
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    border-left: 5px solid orange;
+    margin-left: 10px;
+}
+
+h4{
+    margin-bottom: 0;
+}
+
+.text{
+    margin-top: 0;
+}
+
+.news-card{
+    height: 220px;
+    width: 200px;
+    background-color: white;
+    margin-left: 10px;
 }
 
 .footer{
-    background-color: green;
+    grid-column: 2 / 3;
 }
